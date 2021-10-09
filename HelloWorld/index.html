@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>My  very first React project</title>
+</head>
+<body> 
+    <div id="mydiv">Thùng 1</div>
+    <div id="mydiv2">Thùng 2</div>
+
+    <script type="text/babel">
+        function Hello() {
+          return <h1>Hello World, Im learning React JS</h1>;
+        }
+  
+        ReactDOM.render(<Hello />, document.getElementById('mydiv2'))
+      </script>
+</body>
+</html>
